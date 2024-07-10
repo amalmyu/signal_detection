@@ -20,6 +20,10 @@ d：其他药品的其他不良反应报告数<br>
 
 ## 报告比值比法（ROR）
 公式<br> 
-$$
-ROR = \frac{a/c}/{b/d}
-$$
+$$ROR = \frac{a/c}{b/d}$$
+$$ROR{\kern 2pt}95\\%CI=e^{ln(ROR)\pm 1.96 \sqrt{(\frac{1}{a}+\frac{1}{b}+\frac{1}{c}+\frac{1}{d})}}$$
+\* $95\\%CI$ 表示95\%置信区间
+
+## 比例报告比法（PRR）
+$$PRR=\frac{\frac{a}{(a+b)}}{\frac{c}{(c+d)}}$$
+$$PRR{\kern 2pt}95\\%CI=e^{ln(PRR)\pm 1.96 \sqrt{(\frac{1}{a}+\frac{1}{a+b}+\frac{1}{c}+\frac{1}{c+d})}}$$
